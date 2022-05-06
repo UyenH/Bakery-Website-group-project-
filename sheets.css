@@ -1,0 +1,263 @@
+﻿* { box-sizing: border-box; 
+}
+body { background-color: #FFFFCC; 
+       font-family: "Times New Roman", Georgia, serif;  
+}
+/*11/26/18 Bvistan & Uho NEW 5L: Configure dimensions of iframe and centers it*/
+iframe{ display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	width: 90%;
+    	height: 300px
+}
+/*11/26/18 Bvistan & Uho NEW 3L:Change background and text color and sets logo*/
+header {background-color: #996633;
+	color: #FFFFCC; 
+	background-image: url(logo.png);
+	text-align: center; 
+	height: 270px; 
+	padding: 80px 20px; 
+	border-bottom: 2px solid #000000;
+	background-repeat: no-repeat;
+	background-size: 300px 300px;	border-bottom: 2px solid #000000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+main { padding: 0em; 
+       background-color: #FFCC99; 
+       overflow: auto;
+}
+/*11/18/18 Bvistan & Uho NEW 4L: Configures right float for aside and centers text*/
+aside { float: right; 
+	color:#FFFFCC;
+	width: 20%;
+	text-align: center;
+}
+
+/*11/27/18 Bvistan & Uho NEW 3L: Increased fontsize and change background color*/
+footer { font-size:1em; 
+	 background-color: #996633; 
+	 color: #FFFFCC;
+	 text-align: center; 
+	 font-style: italic;  
+	 padding-bottom: 10px; 
+	 border-top: 1px solid #221811;
+	 width: auto ; height: auto;
+}
+header, nav, main, footer{display: block;}
+h1 { font-size: 4em; }
+main p{ font-size: 1.4em; }
+main dt{ font-weight: bold; }
+/*11/21/18 Bvistan & Uho NEW 4L: Centers images in main section*/
+main img {display: block;
+    	  margin-left: auto;
+    	  margin-right: auto;
+    	  width: 40%;
+}
+/*11/22/18 Bvistan & Uho NEW 1L: Bolds text within summary tag*/
+summary { font-weight: bold; }
+/*11/22/18 Bvistan & Uho NEW 1L: Sets padding for detail elements*/
+details { padding-left: 50px; }
+h1, h2, h3, h4, p{
+	margin:20px;
+}
+/*11/20/18 Bvistan & Uho NEW 2L: Change bakcground and text color to safe colors*/
+nav { background-color: #FFCC99;
+      color: #663333; 
+      text-align: center;  
+      font-size: 1.5em; 
+      letter-spacing: 0.1em;
+      font-weight: bold; 
+      padding-right: 2em;
+      position: relative; 
+      border-bottom: 2px solid #000;
+      position:relative;
+}
+/*11/15/18 Bvistan & Uho NEW 6L: Configures transition and background 
+colors for pseudo classes*/
+nav a{transition: background-color 3s linear;
+}
+nav a:link { color: #99682E; }
+nav a:visited {color: #795c37; }
+nav a:hover { color: #CC9933; 
+	      background-color:#FFFFFF; 
+}
+nav ul { list-style-type: none; 
+	 padding: 0; 
+	 margin:0; 
+	 overflow:hidden; 
+	 }
+/*11/15/18 Bvistan & Uho NEW 7L: Configures horizontal navigation*/
+nav li { display: inline-block;
+}
+nav li a{display:block; 
+	 color:#99682E; 
+	 text-align:center; 
+	 padding: 14px 16px; 
+	 text-decoration:none;
+}
+/*11/19/18 Bvistan & Uho NEW 29L: Configures drop down submenus*/
+nav ul ul{
+	position:absolute; 
+	background-color: #FFE2C0; 
+	padding:0px; 
+	text-align:left; 
+	display:none;
+}
+nav ul ul li{
+	border: 1px solid #E5BB8A; 
+	display:block; 
+	width: 8em;
+	margin-left:0;
+}
+nav li:hover ul{
+display:block;
+}
+nav ul ul ul{
+    position:relative;
+}
+nav ul ul ul li{
+	border: 1px solid #E5BB8A; 
+	display: none; 
+	width: 8em;
+	margin-left:0;
+}
+nav ul ul li:hover li{
+	display:block;
+}
+/*11/23/18 Bvistan & Uho NEW 14L: Configures bottom text-based navigation*/
+main nav {color: #000; 
+	  text-align: center;  
+	  font-size: .9em; 
+	  letter-spacing: 0.1em; 
+	  padding-right: 0em;
+	  position: relative; 
+	  border-bottom: none;
+ }
+main nav a:link { color: #000; }
+main nav a:visited {color: #990099; }
+main nav a:hover { color: #99682E; background-color: #FFCC99;}
+main nav ul {  padding: 0; margin:0; overflow:hidden; }
+main nav li { display: inline-block;}
+main nav li a{ display:block; 
+	       color:#99682E; 
+	       text-align:center; 
+	       padding: 14px 16px; 
+	       text-decoration: underline;
+}
+/*11/22/18 Bvistan & Uho NEW 10L: Configures design for all tables*/
+table{ padding:20px; 
+       border-spacing: 20px; 
+       width:90%; 
+       padding-bottom:0;
+       margin:auto; 
+       padding-top:0;
+}
+td, th { text-align: center; font-size: 1.6em ; }
+td a { color: Black; text-decoration: none; }
+th a { color: Black; text-decoration: none; }
+
+/*11/19/18 Bvistan & Uho NEW 11L: Configures design for all forms and fieldsets*/
+form { padding: 2em; }
+label { float: left; 
+	display: block; 
+	text-align: right; 
+	width: 10em; 
+	padding-right: 1em; 
+}
+input, textarea, select { display: block; 
+			  margin-bottom: 1em; 
+}
+fieldset { border: 2px solid #99682E; }
+/*11/22/18 Bvistan & Uho NEW 1L: Changed wrapper width to 65%*/
+#wrapper { width: 65%; 
+           margin-right: auto; 
+	   margin-left: auto;
+           Background-color: #996633;
+}
+/*11/19/18 Bvistan & Uho NEW 1L: Id that makes elements float right*/
+#right { float: right; 
+}
+/*11/20/18 Bvistan & Uho NEW 9L: Sets hero images for home and jobs pages*/
+#herohome { background-image: url(first.jpg); 
+	    background-repeat: no-repeat;
+	    width: 100%;
+	    height: 350px; 
+}
+#herojob { background-image: url(kitchen.jpg); 
+	   background-repeat: no-repeat;
+           width: 100%;
+	   height: 350px; 
+}
+/*11/17/18 Bvistan & Uho NEW 2L: Class that highlights nav text of current page*/
+.active { color: #CC9933; 
+	  background-color: #FFFFFF;
+}
+.mobile {display: none; }
+.desktop { display: inline; }
+/*11/23/18 Bvistan & Uho NEW 4L: Centers qr code in aside*/
+.qr{ display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+}
+/*11/19/18 Bvistan & Uho NEW 4L: Centers Submit button*/
+#mySubmit{ display: block;
+    	   margin-left: auto;
+    	   margin-right: auto;
+   	   width: 10%;
+}
+/*11/25/18 Bvistan & Uho NEW 7L: Class to make images responsive to screen-size*/
+.responsive{display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 300px;	
+	    max-width: 300px;
+            width: 100%;
+            height: auto;
+}
+/*11/26/18 Bvistan & Uho NEW 4L: Centers forms and makes form responsive*/
+.fieldset-autowidth{ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.position{
+	position:fixed;
+}
+@media only screen and (max-width: 1024px) {
+	body { margin: 0; background-image: none; }
+	#wrapper { width: auto; min-width: 0; margin: 0; padding: 0; box-shadow: none; }
+	header{ border-bottom: 0px solid #FEF6C2; }
+	h1 { margin: 0; margin-top: 0; margin-bottom: 1em; 
+	padding-top: 1em; padding-bottom: 1em; font-size: 2.5em;}
+	nav { float: none; width: auto; padding-top: 1em; font-size: 1.3em; }
+	nav li { display: inline-block; }
+	nav a { width: 8em; font-weight: bold; border-style: none; }
+	nav ul { padding: 0; margin: 0; }
+	#herojob { margin: 0; padding: 0; width: 100%;}
+	#herohome { margin: 0; padding: 0; width: 100%; background-image: url(second.jpg);}
+	main { margin: 0; font-size: 90%; }
+	.mobile { display: none; }
+	.desktop { display: inline; }
+	table{ overflow-x: auto;}
+}
+@media only screen and (max-width: 768px) {
+	header { background-image: url(javajammini.jpg); height: 128px; }
+	h1 { font-size: 2em; text-align: center; padding: 0; }
+	nav { margin: 0; }
+	nav a { display: block; padding: 0.2em; width: auto;border-bottom: 1px solid #FEF6C2; }
+	nav li { display: block; }
+	main { padding-top: 1px; }
+	h2 { padding: 0.5em 0em 0em 0.5em;  margin-right: 0.5em; }
+	.details { padding-left: 0; padding-right: 0; }
+	#herojob { background-image: none; height: auto; }
+	#herohome  { background-image: none; height: auto; }
+	.floatleft { padding-left: 0.5em; padding-right: 0.5em; }
+	.mobile { display: inline; }
+	.desktop { display: none; }
+	table{ overflow-x: auto;}
+	main { clear: right; }
+	aside { float: none; }
+	.fieldset-autowidth{ width: 70%;}
+	input { width: 40%; }
+}

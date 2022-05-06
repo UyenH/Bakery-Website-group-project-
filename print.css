@@ -1,0 +1,82 @@
+* { box-sizing: border-box; }
+body { background-color: #FFFFFF; 
+       font-family: "Times New Roman", Georgia, serif;  }
+/*11/23/18 Bvistan & Uho NEW 4L: Removes all iframes and navigation when printing*/
+iframe{ display: none;}
+nav { display: none; }
+nav ul { display: none; }
+nav a{ display: none; }
+/*11/23/18 Bvistan & Uho NEW 3L:Change background and text color to black and white*/
+header {background-color: #FFF;
+	color: #000; 
+	font-size: 0.5em;
+	background-image: url(logo.png);
+	text-align: center; 
+	height: 270px; 
+	padding: 80px 20px; 
+	border-bottom: 2px solid #000000;
+	background-repeat: no-repeat;
+	background-size: 300px 300px;	border-bottom: 2px solid #000000;
+	font-family: Arial, Helvetica, sans-serif;}
+/*11/23/18 Bvistan & Uho NEW 1L:Change background to white*/
+main { background-color: #FFFFFF;
+       padding: 0em; 
+       overflow: auto;}
+/*11/23/18 Bvistan & Uho NEW 1L: Remove aside from print display*/
+aside { display: none; }
+/*11/23/18 Bvistan & Uho NEW 2L:Change background and text color to black and white*/
+footer { background-color: #FFF; 
+	 color: #000;
+	 font-size:1em;
+	text-align: center; 
+	 font-style: italic;  
+	 padding-bottom: 10px; 
+	 border-top: 1px solid #221811;
+	 width: auto ; height: auto;}
+header, nav, main, footer{display: block;}
+h1 { font-size: 4em; }
+main p{ font-size: 1.4em; }
+main dt{ font-weight: bold; }
+/*11/21/18 Bvistan & Uho NEW 4L: Centers images in main section*/
+main img {display: block;
+    	  margin-left: auto;
+    	  margin-right: auto;
+    	  width: 40%;}
+/*11/22/18 Bvistan & Uho NEW 1L: Bolds text within summary tag*/
+summary { font-weight: bold; }
+/*11/22/18 Bvistan & Uho NEW 1L: Sets padding for detail elements*/
+details { padding-left: 50px; }
+h1, h2, h3, h4, p{
+	margin:20px;}
+/*11/22/18 Bvistan & Uho NEW 10L: Configures design for all tables*/
+table{ padding:20px; 
+       border-spacing: 20px; 
+       width:90%; 
+       padding-bottom:0;
+       margin:auto; 
+       padding-top:0;}
+td, th { text-align: center; font-size: 1.6em ; }
+td a { color: Black; text-decoration: none; }
+th a { color: Black; text-decoration: none; }
+form { padding: 2em; }
+label { float: left; 
+	display: block; 
+	text-align: right; 
+	width: 10em; 
+	padding-right: 1em; }
+input, textarea, select { display: block; 
+			  margin-bottom: 1em; }
+fieldset { border: 2px solid #99682E; }
+/*11/22/18 Bvistan & Uho NEW 1L: Changed wrapper width to 65%*/
+#wrapper { width: 65%; 
+           margin-right: auto; 
+	   margin-left: auto;
+           Background-color: #996633;}
+#herohome { background-image: url(first.jpg); 
+	    background-repeat: no-repeat;
+	    width: 100%;
+	    height: 350px; }
+#herojob { background-image: url(kitchen.jpg); 
+	   background-repeat: no-repeat;
+           width: 100%;
+	   height: 350px; }
